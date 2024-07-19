@@ -6,4 +6,4 @@ def translate_text(text, dest='en'):
         result = translator.translate(text, dest=dest)
         return result.text
     except Exception as e:
-        return "Bu soz topilmadi"
+        return "Bu soz yo'q"

@@ -5,7 +5,7 @@ from aiogram import  Dispatcher
 
 from handlers.echo import router
 from handlers.start import start_router
-from handlers.wiki_bot import wiki_router
+from handlers.win import wiki_router
 from handlers.translate_bot import translate_router
 
 from loader import bot,  db

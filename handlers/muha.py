@@ -4,4 +4,4 @@ def wiki_bot(text):
     try:
         return wikipedia.summary(text)
     except:
-        return f"Kechirasiz bu ma`lumot topilmadi"
+        return f"Kechirasiz lekin bu ma`lumot yo'q"
